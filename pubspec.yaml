@@ -1,0 +1,42 @@
+name: flutter_starter
+description: "A Flutter starter project with Signals, Flutter Hooks, fquery, go_router, and Freezed."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Reactive state management
+  signals: ^6.2.0
+  # Widget lifecycle & state management hooks
+  flutter_hooks: ^0.21.2
+  # Async data fetching, caching & state management
+  fquery: ^3.0.2+1
+  fquery_core: ^3.0.2
+  # Declarative routing
+  go_router: ^17.0.0
+  # Immutable model classes with code generation
+  freezed_annotation: ^3.1.0
+  json_annotation: ^4.9.0
+  # HTTP client
+  http: ^1.2.2
+  ducafe_ui_core: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+  # Code generation
+  build_runner: ^2.4.13
+  freezed: ^3.2.0
+  json_serializable: ^6.11.0
+
+flutter:
+  uses-material-design: true

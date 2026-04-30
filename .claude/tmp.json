@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      { 
+        "appID": "3CWFF5NZA6.cn.fenziboss.app",
+        "paths":["/ios/*"]
+      }
+    ]
+  }
+}
